@@ -1,0 +1,10 @@
+.home {
+  padding-top: 12vh;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to top right,
+    white,
+    rgb(186, 234, 255),
+    white
+  );
+}

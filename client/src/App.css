@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@200;400;600&display=swap");
+
+:root {
+  --primary-color: #115f9c;
+  --bg-color: #fafafa;
+  --font-color-alt: rgb(0 0 0 / 87%);
+  --font-200: 200;
+  --font-400: 400;
+  --font-600: 600;
+  --shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Archivo", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  background-color: var(--bg-color);
+}
+
+.container {
+  margin: auto;
+  max-width: 1200px;
+}
+
+.fill__bg {
+  fill: var(--bg-color);
+}
