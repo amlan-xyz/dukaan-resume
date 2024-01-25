@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@200;400;600&display=swap");
 
 :root {
-  --primary-color: #115f9c;
+  --primary-color: #2174b3;
+  --alt-color: #115f9c;
   --bg-color: #fafafa;
   --font-color-alt: rgb(0 0 0 / 87%);
   --font-200: 200;
@@ -15,6 +16,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Archivo", sans-serif;
+  line-height: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-color-alt);
 }
 
 li {

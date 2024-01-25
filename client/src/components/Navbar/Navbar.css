@@ -17,7 +17,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 12vh;
-  padding: 0 2rem;
+  padding: 0 1rem;
 }
 
 .nav__header {
@@ -136,6 +136,10 @@ nav:has(.nav__link:hover) {
 }
 
 @media (max-width: 768px) {
+  .navbar {
+    padding: 0 2rem;
+  }
+
   .nav__list {
     margin-left: -50px;
   }
