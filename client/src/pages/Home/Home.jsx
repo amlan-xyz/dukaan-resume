@@ -1,3 +1,4 @@
+import { About } from "../../components/About/About";
 import { Hero } from "../../components/Hero/Hero";
 import { Slider } from "../../components/Slider/MarqeeSlider";
 import "./Home.css";
@@ -6,6 +7,7 @@ export const Home = () => {
     <div className="home">
       <Hero />
       <Slider />
+      <About />
     </div>
   );
 };
