@@ -1,5 +1,6 @@
 import { About } from "../../components/About/About";
 import { Hero } from "../../components/Hero/Hero";
+import { Projects } from "../../components/Projects/Projects";
 import { Slider } from "../../components/Slider/MarqeeSlider";
 import "./Home.css";
 export const Home = () => {
@@ -8,6 +9,7 @@ export const Home = () => {
       <Hero />
       <Slider />
       <About />
+      <Projects />
     </div>
   );
 };
