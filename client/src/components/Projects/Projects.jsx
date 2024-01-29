@@ -33,10 +33,7 @@ export const Projects = () => {
             <GrSchedules className="project__icon" />
           </div>
           <a href="https://moonshot-booking-app.vercel.app">BookMySlot</a>
-          <p>
-            A Demo page for booking slots. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Illum, corrupti!
-          </p>
+          <p>A project that I am working on.Just a glimpse of my design.</p>
         </div>
       </div>
     </div>

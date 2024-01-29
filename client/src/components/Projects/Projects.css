@@ -60,10 +60,25 @@ p {
   text-decoration: underline;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   .projects__list {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+  }
+  .projects__body {
+    height: 250px;
+    width: 450px;
+  }
+}
+
+@media (max-width: 425px) {
+  .projects h1 {
+    line-height: 2.5rem;
+  }
+
+  .projects__body {
+    height: 250px;
+    width: 350px;
   }
 }

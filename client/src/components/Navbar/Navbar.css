@@ -224,4 +224,8 @@ nav:has(.nav__link:hover) {
   .menu__icon {
     font-size: 1.5rem;
   }
+
+  .nav__projects-item p {
+    text-align: start;
+  }
 }

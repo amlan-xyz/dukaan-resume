@@ -11,13 +11,13 @@ export const Footer = () => {
           amlan <sup>&#174;</sup>
         </div>
         <div className="footer__links">
-          <a href="#linkedin">LinkedIn</a>
-          <a href="#github">Github</a>
-          <a href="instagram">Instagram</a>
+          <a href="https://www.linkedin.com/in/amlanxyz/">LinkedIn</a>
+          <a href="https://github.com/amlan-xyz/">Github</a>
+          <a href="https://www.instagram.com/amlan.xyz/">Instagram</a>
         </div>
         <div className="footer__links">
           <a href="mailto:heyamlan192gmail.com">Email</a>
-          <a href="X">X</a>
+          <a href="https://twitter.com/amlanxyz">X</a>
         </div>
       </div>
       <div className="container footer__content">

@@ -6,9 +6,21 @@ export const Showcase = () => {
       <div className="showcase__body container">
         <h1>Get a glimpse of my designed websites</h1>
         <div className="showcase__list">
-          <img className="showcase__item" src="/designs/weshare.png" alt="" />
-          <img className="showcase__item" src="/designs/candyland.png" alt="" />
-          <img className="showcase__item" src="/designs/booking.png" alt="" />
+          <img
+            className="showcase__item"
+            src="/designs/weshare.png"
+            alt="we-share"
+          />
+          <img
+            className="showcase__item"
+            src="/designs/candyland.png"
+            alt="candyland"
+          />
+          <img
+            className="showcase__item"
+            src="/designs/booking.png"
+            alt="booking"
+          />
         </div>
       </div>
     </div>

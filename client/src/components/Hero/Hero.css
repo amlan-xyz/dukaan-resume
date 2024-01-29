@@ -28,6 +28,7 @@
   line-height: 1.8rem;
   font-weight: var(--font-600);
   color: rgb(69, 69, 69);
+  text-align: start;
 }
 
 .hero__btn {
@@ -97,6 +98,20 @@
   .mobile__img {
     width: 150px;
     height: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .desktop__img {
+    width: 300px;
+    height: 200px;
+    right: 0;
+  }
+
+  .mobile__img {
+    width: 80px;
+    height: 100px;
+    bottom: 100px;
   }
 }
 
