@@ -3,7 +3,7 @@ import "./Highlight.css";
 export const Highlight = () => {
   return (
     <div className="highlight">
-      <h1>Let me be a part of you team</h1>
+      <h1>Let me be a part of your team</h1>
       <p>Why I should be working for you?</p>
 
       <div className="highlight__body">

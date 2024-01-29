@@ -1,0 +1,76 @@
+.contact {
+  background-color: white;
+  padding: 4rem 1rem;
+}
+
+.contact__body {
+  height: 400px;
+  position: relative;
+}
+
+.contact__body img {
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+}
+
+.contact__body div {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.contact__body span {
+  background-color: black;
+  width: 70px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fill__gradient {
+  font-size: 3rem;
+  color: rgb(225, 132, 70);
+}
+
+.contact__body a {
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  font-weight: var(--font-600);
+}
+
+.contact__body a:hover {
+  transform: translateY(-2px);
+  transition: 0.5s ease-in;
+}
+
+.contact__body h1 {
+  font-size: 3rem;
+}
+
+.contact__body p {
+  font-size: 1.5rem;
+  font-weight: var(--font-200);
+}
+
+@media (max-width: 425px) {
+  .contact__body {
+    height: 500px;
+  }
+  .contact__body h1 {
+    line-height: 3rem;
+  }
+}
