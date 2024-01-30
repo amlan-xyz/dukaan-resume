@@ -4,10 +4,10 @@ export const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero__content">
-        <h1>Full Stack MERN Developer.</h1>
+        <h1>Seeking opportunities at Dukaan.</h1>
         <p>
           Hi, I'm Amlan. A Computer Science and Engineering Grad. and a
-          passionate Web Developer.
+          passionate MERN stack Developer.
         </p>
         <a className="hero__btn" href="mailto:heyamlan19@gmail.com">
           Hire Me
