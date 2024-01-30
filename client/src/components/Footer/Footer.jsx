@@ -16,7 +16,7 @@ export const Footer = () => {
           <a href="https://www.instagram.com/amlan.xyz/">Instagram</a>
         </div>
         <div className="footer__links">
-          <a href="mailto:heyamlan192gmail.com">Email</a>
+          <a href="mailto:heyamlan192gmail.com">Gmail</a>
           <a href="https://twitter.com/amlanxyz">X</a>
         </div>
       </div>
